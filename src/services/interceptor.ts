@@ -1,7 +1,5 @@
 // src/services/interceptor.ts
-// import { SERVER_URL } from "./config";
-
-const SERVER_URL = 'Your-server-url';
+import { SERVER_URL } from "./config";
 
 const { fetch: originalFetch } = window;
 
@@ -65,17 +63,11 @@ window.fetch = async function (...args) {
 };
 
 
-/** 
- * todo: import ir in main.tsx and setup automatically
-  import "./services/interceptor";
- */
 
 
 
 
-/**
- * Todo: learn about
- */
+/** ****** learn about ******** */
 
 
 // interface RequestInit {

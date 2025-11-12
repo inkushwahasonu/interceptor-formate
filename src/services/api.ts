@@ -1,17 +1,12 @@
 // api.ts page
-export interface IUser {
-    id: number;
-    name: string;
-    role: string;
-}
 
-export interface IApiResponse<T> {
-  data:T;
-  message?: string;
-  success: boolean;
-}
+import type { IApiResponse, IUser } from "../interface/user";
+import { SERVER_URL } from "./config";
 
-const SERVER_URL = 'Your-server-url';
+
+
+
+
 
 
 export const createUser = async (userData:IUser ): Promise<IApiResponse<IUser>> => {

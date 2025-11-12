@@ -1,0 +1,26 @@
+import CreateUser from "./pages/CreateUser"
+
+
+
+function App() {
+
+
+
+const authToken =
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzBkZmNhMDcwMDRjMzY4NDBhNTY5NmUiLCJlbWFpbCI6ImZpbmVsaXN0aW5nc0BtYWlsaW5hdG9yLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGFaTHFCcTBmc2p4NmdIL2lhb1o3TmV2WnloYjBRY3ltei9Ham9xSi9IQy80NXh4bnIzS0ltIiwibW9iaWxlIjoiOTg3NjU0MzIxMCIsInJvbGUiOiJzdXBlckFkbWluIiwibW9kdWxlIjp7ImhvbWUiOnsiY3JlYXRlIjp0cnVlLCJyZWFkIjp0cnVlLCJ1cGRhdGUiOnRydWUsImRlbGV0ZSI6dHJ1ZX0sImFjY291bnQiOnsiY3JlYXRlIjp0cnVlLCJyZWFkIjp0cnVlLCJ1cGRhdGUiOnRydWUsImRlbGV0ZSI6dHJ1ZX0sInRlYW1NYW5hZ2VtZW50Ijp7ImNyZWF0ZSI6dHJ1ZSwicmVhZCI6dHJ1ZSwidXBkYXRlIjp0cnVlLCJkZWxldGUiOnRydWV9LCJ3ZWJDcmF3bGVyIjp7ImNyZWF0ZSI6dHJ1ZSwicmVhZCI6dHJ1ZSwidXBkYXRlIjp0cnVlLCJkZWxldGUiOnRydWV9LCJsZWFkR2VuZXJhdGlvbiI6eyJjcmVhdGUiOnRydWUsInJlYWQiOnRydWUsInVwZGF0ZSI6dHJ1ZSwiZGVsZXRlIjp0cnVlfX0sImlhdCI6MTc2Mjc2OTAxOSwiZXhwIjoxNzYzOTc4NjE5fQ.yUy4mjJBqbQX6_hL_ArHrtaaUpm9kla6DCMBs-55lvk"
+localStorage.setItem("authToken",authToken)
+
+
+ 
+
+
+  return (
+    <>
+      
+      <CreateUser/>
+     
+    </>
+  )
+}
+
+export default App
